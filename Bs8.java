@@ -39,7 +39,7 @@ return;
 System.out.println("false");
     }
     public static void main(String[] args) {
-        int []a={2,1,2,2,2,2};
+        int []a={2,1,2,3,4,5,};
         int target=2;
     Sorted(a,target);
         

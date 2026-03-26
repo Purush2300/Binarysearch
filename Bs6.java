@@ -38,8 +38,7 @@ static int upperbound(int[]a,int target){
     public static void main(String[] args) {
         int []a={1,2,3,4,5};
         int target=5;
-        int count=0;
-  int lb=lowbound(a, target);
+        int lb=lowbound(a, target);
   int up=upperbound(a, target);
   System.out.println(up-lb);
 
